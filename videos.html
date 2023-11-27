@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>START LEARNING PYTHON - HOME</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cc4f5a4871.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.v5_PKApklGt6uBuz76jrFQHaEo&pid=Api&P=0&h=220'); /* Replace with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(188, 24, 182), 255, 255); /* Optional: Set text color to make it readable on the background */
+        }
+        
+        .vid {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px; /* Optional: Add padding for better visual appearance */
+        }
+        
+        /* Add this style to maintain visibility of text in the header and navigation */
+        header, nav {
+            background-color: rgba(238, 103, 103, 0.7); /* Use an rgba value with alpha for a semi-transparent background */
+            color: #0d006e;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        /* Add more styles for other sections as needed */
+        
+        
+
+        header {
+            background-color: #ee6767;
+            color: #0d006e;
+            padding: 15px;
+            text-align: center;
+        }
+    
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #06ba4b;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .fa-bars {
+            display: none;
+            color: #c31818;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: none;
+            }
+
+            .fa-bars {
+                display: block;
+            }
+
+            .fa-bars, nav a {
+                text-align: center;
+            }
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .background-light {
+            background-color: #d92727;
+        }
+
+        .vid {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #videoList {
+            list-style: none;
+            padding: 0;
+        }
+
+        #videoList li {
+            margin: 10px 0;
+        }
+
+        #videoList li a {
+            text-decoration: none;
+            color: #83ee00;
+            font-size: 18px;
+        }
+
+        #videoContainer {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
+        .vid {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.v5_PKApklGt6uBuz76jrFQHaEo&pid=Api&P=0&h=220'); /* Replace with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 20px; /* Optional: Add padding for better visual appearance */
+            color: #ce06e4; /* Optional: Set text color to make it readable on the background */
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .vid {
+                text-align: center;
+            }
+
+            iframe {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>START LEARNING PYTHON</h1>
+    </header>
+
+    <nav>
+        <i class="fas fa-bars" onclick="toggleNav()"></i>
+        <a href="home.html" class="text-animation">Home</a>
+        <a href="pythonnotes.html" class="text-animation">Python Notes</a>
+        <a href="videos.html" class="text-animation">YouTube Videos</a>
+        <a href="interview.html" class="text-animation">Interview Questions</a>
+        <a href="about.html" class="text-animation">About</a>
+    </nav>
+
+    <section id="home-content">
+        <h2>Welcome to the Start Learning Python</h2>
+        <p>This website provides valuable resources to help you learn Python programming language.
+            |||| SEE VEDIOS IN BOTTOM OF THE SECTION |||| just single click ro see >>>>>>
+        </p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <div class="vid" style="background-image: url('https://tse2.mm.bing.net/th?id=OIP.v5_PKApklGt6uBuz76jrFQHaEo&pid=Api&P=0&h=220');">
+        <h1 id="h1"><a href="#">Youtube Videos</a></h1>
+        <ol id="videoList">
+            <li><a href="#" onclick="loadVideo('day1', 'n-c2TGQ6uK8')">DAY 1 click here to watch bellow VIDEO</a></li>
+            <li><a href="#" onclick="loadVideo('day2', 'eqOwIgCn0Zs')">DAY 2</a></li>
+            <li><a href="#" onclick="loadVideo('day3', 'nvSxr1QM1TU')">DAY 3</a></li>
+            <li><a href="#" onclick="loadVideo('day4', 'l3P7ZlEzdSs')">DAY 4</a></li>
+            <li><a href="#" onclick="loadVideo('day5', 'ebkTLP_Dgms')">DAY 5</a></li>
+            <li><a href="#" onclick="loadVideo('day6', 'XLAIPAWHV0w')">DAY 6</a></li>
+            <li><a href="#" onclick="loadVideo('day7', 'EQZOe2XtG3o')">DAY 7</a></li>
+            <li><a href="#" onclick="loadVideo('day8', 'bKpmN_-JxUs')">DAY 8</a></li>
+            <li><a href="#" onclick="loadVideo('day9', 'kUMgdmLwLEo')">DAY 9</a></li>
+            <li><a href="#" onclick="loadVideo('day10', 'jMImFXyBF8s')">DAY 10</a></li>
+            <li><a href="#" onclick="loadVideo('day11', '_SjwLEQkwy8')">DAY 11</a></li>
+            <li><a href="#" onclick="loadVideo('day12', '6xb_2ykZYic')">DAY 12</a></li>
+            <li><a href="#" onclick="loadVideo('day13', 'ZzOWmjmrEaQ')">DAY 13</a></li>
+            <li><a href="#" onclick="loadVideo('day14', 'I-LeerrfyOM')">DAY 14</a></li>
+            <li><a href="#" onclick="loadVideo('day15', 'k6kwV4sG0y4')">DAY 15</a></li>
+            <li><a href="#" onclick="loadVideo('day16', 'v0GpGEyRAsY')">DAY 16</a></li>
+            <li><a href="#" onclick="loadVideo('day17', 'YI7bKz2gSOM')">DAY 17</a></li>
+            <li><a href="#" onclick="loadVideo('day18', '8GtqVRvzLM0')">DAY 18</a></li>
+            <li><a href="#" onclick="loadVideo('day19', '2rp2m-QXF9U')">DAY 19</a></li>
+            <li><a href="#" onclick="loadVideo('day20', '8gJPHxVb5RY')">DAY 20</a></li>
+            <li><a href="#" onclick="loadVideo('day21', '8gJPHxVb5RY')">DAY 21</a></li>
+            <li><a href="#" onclick="loadVideo('day22', 'jc5jEcudSUk')">DAY 22</a></li>
+            <li><a href="#" onclick="loadVideo('day23', 'Eaitp6NWrTQ')">DAY 23</a></li>
+            <li><a href="#" onclick="loadVideo('day24', 'gnfjnJneQls')">DAY 24</a></li>
+            <!-- Add more video links as needed -->
+        </ol>
+    </div>
+
+    <div id="videoContainer">
+        <!-- Video content will be dynamically loaded here -->
+    </div>
+
+    <script>
+        function loadVideo(day, videoId) {
+            var videoContainer = document.getElementById('videoContainer');
+            var previousDay = getPreviousDay(day);
+
+            videoContainer.innerHTML = `
+                <h3>${day}</h3>
+                <p>Description of ${day}.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0"
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                
+                <p><a href="#" onclick="loadVideo('${previousDay}', 'VIDEO_ID_FOR_${previousDay}')">Watch Previous Video (${previousDay})</a></p>
+            `;
+        }
+
+        function getPreviousDay(day) {
+            // Implement logic to get the previous day based on the selected day
+            // For simplicity, assuming a sequential order (day1, day2, day3, ...)
+            var dayNumber = parseInt(day.replace('day', ''));
+            var previousDayNumber = dayNumber - 1;
+            return 'day' + (previousDayNumber < 1 ? 1 : previousDayNumber);
+        }
+
+        function toggleNav() {
+            var x = document.querySelector("nav");
+            if (x.className === "") {
+                x.className += " responsive";
+            } else {
+                x.className = "";
+            }
+        }
+    </script>
+</body>
+</html>
